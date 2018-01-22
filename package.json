@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Tabo is a Slack bot to help you create crontabs easily.",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": "https://github.com/Trofix/tabobot",
   "author": "Trofix",
   "license": "GPL-3.0",
