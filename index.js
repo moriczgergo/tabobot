@@ -40,4 +40,6 @@ app.post('/sc', function(req, res) {
 	}
 });
 
-app.listen(process.env.PORT);
+app.listen(7460, function() {
+	console.log(`Listening for requests on port 7460.`);
+});
